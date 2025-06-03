@@ -17,5 +17,5 @@ if __name__ == "__main__":
         # resume="runs\\train\\test\\rtdetr-mobilenetv4\\weights\\last.pt",  # last.pt path
         optimizer="AdamW",
         project="runs/train",
-        name="test/1",
+        name="rtdetr_r18",
     )
