@@ -37,6 +37,7 @@ pip install pywavelets==1.5.0 opencv-python==4.9.0.80 scikit-learn==1.4.0
 
 ### 数据集准备
 实验使用的数据集为：[SeaDronesSee Object Detection v2](https://cloud.cs.uni-tuebingen.de/index.php/s/ZZxX65FGnQ8zjBP)的Compressed Version版本
+
 官方数据集为COCO标注，本实验的YOLO标注下载链接如下：百度网盘链接: https://pan.baidu.com/s/1lbVx9UCtVvn2qLAMR1iZoQ?pwd=bshe
 下载数据集并组织为以下结构：
 
@@ -74,3 +75,15 @@ python train.py
 python val.py
 ```
 
+---
+
+## 引用声明
+
+```text
+@article{chen2025h2net,
+  title = {H2Net： Enhanced Object Detection in Water Disaster Scenarios via Orthogonal Channel Attention and Wavelet Fusion},
+  author = {Chen, Wenzhuo and Dai, Wantao and Wang, Fan and Jin, Long},
+  journal = {{The Visual Computer} (Under Review)},
+  year = {2025},
+}
+```
